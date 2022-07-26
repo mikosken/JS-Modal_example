@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Modal example</title>
+    </head>
+    <body>
+        <header>
+            <h2>
+                A slightly extended example of modal windows based on lecture
+                from
+                <a
+                    href="https://www.udemy.com/course/the-complete-javascript-course/learn/lecture/22648433"
+                    >The Complete JavaScript Course</a
+                >
+            </h2>
+        </header>
+        <main>
+            <button class="show-modal" id="show-modal-a">Show modal A</button>
+            <button class="show-modal" id="show-modal-b">Show modal B</button>
+            <button class="show-modal" id="show-modal-c">Show modal C</button>
+            <div class="modal hidden" id="modal-a">
+                <button class="close-modal">&times;</button>
+                <h1>Modal window A</h1>
+                <p>Click X or press Esc to close this modal window.</p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Earum dolor est eius aspernatur, tempore nemo sit totam
+                    reiciendis commodi impedit quia dolorum nihil quod natus
+                    sequi repellat modi eos unde? Ducimus est rem dicta odio
+                    ipsam voluptatem. Aliquid distinctio, iste inventore eaque
+                    vel natus incidunt cupiditate cumque eius? Esse alias
+                    deserunt doloribus possimus officia odit aperiam ratione
+                    delectus eius! Molestias?
+                </p>
+            </div>
+            <div class="modal hidden" id="modal-b">
+                <button class="close-modal">&times;</button>
+                <h1>Modal window B</h1>
+                <p>Click X or press Esc to close this modal window.</p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Earum dolor est eius aspernatur, tempore nemo sit totam
+                    reiciendis commodi impedit quia dolorum nihil quod natus
+                    sequi repellat modi eos unde? Ducimus est rem dicta odio
+                    ipsam voluptatem. Aliquid distinctio, iste inventore eaque
+                    vel natus incidunt cupiditate cumque eius? Esse alias
+                    deserunt doloribus possimus officia odit aperiam ratione
+                    delectus eius! Molestias?
+                </p>
+            </div>
+            <div class="modal hidden" id="modal-c">
+                <button class="close-modal">&times;</button>
+                <h1>Modal window C</h1>
+                <p>Click X or press Esc to close this modal window.</p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Earum dolor est eius aspernatur, tempore nemo sit totam
+                    reiciendis commodi impedit quia dolorum nihil quod natus
+                    sequi repellat modi eos unde? Ducimus est rem dicta odio
+                    ipsam voluptatem. Aliquid distinctio, iste inventore eaque
+                    vel natus incidunt cupiditate cumque eius? Esse alias
+                    deserunt doloribus possimus officia odit aperiam ratione
+                    delectus eius! Molestias?
+                </p>
+            </div>
+            <div class="overlay hidden"></div>
+        </main>
+
+        <script src="script.js"></script>
+    </body>
+</html>
